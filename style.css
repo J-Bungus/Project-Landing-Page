@@ -175,3 +175,13 @@ button {
   font-size: 26px;
   margin-bottom: 0px;
 }
+
+.footer {
+  color: #E5E7EB;
+  background-color: #1F2937;
+  padding: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

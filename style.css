@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -43,6 +43,7 @@ button {
 .logo{
   color: #f9faf8;
   font-size: 24px;
+  font-weight: 900;
   padding: 0;
 
   margin-right: auto;
@@ -75,7 +76,7 @@ button {
 
 .title {
   color: #F9FAF8;
-  font-weight: bolder;
+  font-weight: 900;
   font-size: 48px;
   margin-bottom: -40px;
 }
@@ -89,21 +90,22 @@ button {
   font-weight: bolder;
   font-size: 36px;
   text-align: center;
-  margin: 40px;
+  margin: 50px;
 }
 
 .items {
   display: flex;
   justify-content: center;
   padding: 0px;
+  margin-bottom: 120px;
 }
 
 .item {
   color: rgb(100, 100, 100);
   font-size: 18px;
 
-  width: 170px;
-  margin: 0px 30px;
+  width: 180px;
+  margin: 0px 25px;
   text-align: center;
 }
 .square {
@@ -115,4 +117,24 @@ button {
   width: 170px;
   height: 170px;
   margin-bottom: 8px;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  padding: 100px 350px;
+}
+
+.quote {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.speaker {
+  color: #1F2937;
+  font-weight: bold;
+  font-size: 24px;
+  padding-right: 40px;
+  text-align: end;
 }

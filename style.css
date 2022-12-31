@@ -121,7 +121,10 @@ button {
 
 .quote-section {
   background-color: #E5E7EB;
-  padding: 100px 350px;
+  padding-left: 350px;
+  padding-right: 350px;
+  padding-top: 120px;
+  padding-bottom: 100px;
 }
 
 .quote {
@@ -137,4 +140,38 @@ button {
   font-size: 24px;
   padding-right: 40px;
   text-align: end;
+}
+
+.signup {
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding: 50px 120px;
+  margin: 100px 215px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.signup button {
+  border-color: inherit;
+  border-width: 3px;
+  border-radius: 10px;
+  margin: 0px;
+}
+
+.call-to-action {
+  color: white;
+}
+
+.call-to-action p {
+  color: #E5E7EB;
+  font-size: 17px;
+}
+
+.call-to-action .title {
+  color: inherit;
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 0px;
 }

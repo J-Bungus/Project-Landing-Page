@@ -22,6 +22,7 @@ a, .subtext {
 
 a {
   padding-bottom: 120px;
+  padding-left: 30px;
 }
 
 p {
@@ -42,6 +43,7 @@ button {
 .logo{
   color: #f9faf8;
   font-size: 24px;
+  padding: 0;
 
   margin-right: auto;
 }
